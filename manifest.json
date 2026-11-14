@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "No Damage Tag",
+        "description": "Give entities a tag so they don't take damage",
+        "uuid": "92ad54c4-2a4c-4600-8b54-b2bb92593df3",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 26, 50]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "4db208ec-fb1e-469d-a6bd-4dd62f775179",
+            "version": [1, 0, 0]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "9f6e28d3-227c-478f-bfc5-4f691d01a29b",
+            "version": [1, 0, 0],
+            "entry": "scripts/xyz/hajsori/no_damage_tag/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": ["Hajsori"]
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "2.11.0"
+        }
+    ]
+}
